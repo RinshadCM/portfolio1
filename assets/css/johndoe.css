@@ -11504,8 +11504,8 @@ pre .code {
 
 .header {
   position: relative;
-  height: 80vh;
-  min-height: 600px;
+  height: 8rem;
+  min-height: 35rem;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.png);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../imgs/header.png);
   background-size: cover;
@@ -11523,7 +11523,7 @@ pre .code {
 .header .header-content {
   width: 100%;
   position: absolute;
-  left: 40rem;
+  left: 25%;
   top: 50%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -11681,4 +11681,10 @@ pre .code {
   background: #F85C70;
   display: block;
   margin-top: 10px;
+}
+
+
+
+#fiverr{
+  margin-top: 1rem;
 }
